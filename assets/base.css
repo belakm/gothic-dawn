@@ -2799,23 +2799,52 @@ details-disclosure > details {
   word-break: break-word;
 }
 
-.gradient {
-  background: rgb(var(--color-background));
-  background-attachment: fixed;
-  background-color: #269;
+.grid-background {
+  background-color: rgb(var(--color-base-background-1));
   background-image: linear-gradient(
       var(--color-base-background-2) 2px,
       transparent 2px
     ),
     linear-gradient(90deg, var(--color-base-background-2) 2px, transparent 2px),
-    linear-gradient(var(--color-base-background-1) 16 1px, transparent 1px),
+    linear-gradient(
+      rgba(var(--color-base-background-2), 0.3) 1px,
+      transparent 1px
+    ),
     linear-gradient(
       90deg,
-      var(--color-base-background-1) 16 1px,
+      rgba(var(--color-base-background-2), 0.3) 1px,
       transparent 1px
     );
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+
+  background-image: linear-gradient(
+      rgb(var(--color-base-background-2)) 2px,
+      transparent 2px
+    ),
+    linear-gradient(
+      90deg,
+      rgb(var(--color-base-background-2)) 2px,
+      transparent 2px
+    ),
+    linear-gradient(
+      rgba(var(--color-base-background-2), 0.3) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(var(--color-base-background-2), 0.3) 1px,
+      1px,
+      transparent 1px
+    );
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.gradient {
+  background: rgb(var(--color-background));
+  background: var(--gradient-background);
+  background-attachment: fixed;
 }
 
 @media screen and (forced-colors: active) {
