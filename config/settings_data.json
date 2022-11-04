@@ -8,7 +8,7 @@
     "colors_text": "#ffffff",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
-    "gradient_background_1": "linear-gradient(167deg, rgba(0, 30, 126, 1), rgba(51, 51, 51, 1) 64%)",
+    "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
     "type_header_font": "assistant_n4",
