@@ -7,9 +7,9 @@
     "gradient_accent_2": "",
     "colors_text": "#ffffff",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#1878b9",
+    "colors_background_1": "#000000",
     "gradient_background_1": "",
-    "colors_background_2": "#f3f3f3",
+    "colors_background_2": "#f700ff",
     "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -175,7 +175,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>To provide the freshest and softest rugs and hugs (¬‿¬ )<\/p>"
             }
           }
         },
