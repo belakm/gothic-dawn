@@ -1,0 +1,14 @@
+{%- style -%}
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width isolate section-{{ section.id }}-padding">
+    {% for collection in collections %}
+      {{- collection.title | link_to: collection.url }}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{% endschema %}
+
