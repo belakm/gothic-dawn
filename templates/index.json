@@ -2,30 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "b6b65e4a-c884-4804-9b48-d455c77eae6c": {
-          "type": "heading",
-          "settings": {
-            "heading": "ORDER NOW TO GET 30% OFF THE STICKER PACK",
-            "heading_size": "h1"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "b6b65e4a-c884-4804-9b48-d455c77eae6c",
-        "button"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/sitri_logo.png",
         "image_overlay_opacity": 0,
@@ -43,7 +19,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Take a looky 👀",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
