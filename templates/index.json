@@ -16,6 +16,11 @@
         "show_text_below": false
       }
     },
+    "3649c7b5-026c-4e28-aa32-7eebe0d9ed75": {
+      "type": "collection-row-menu",
+      "settings": {
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -46,6 +51,7 @@
   },
   "order": [
     "image_banner",
+    "3649c7b5-026c-4e28-aa32-7eebe0d9ed75",
     "featured_collection"
   ]
 }
