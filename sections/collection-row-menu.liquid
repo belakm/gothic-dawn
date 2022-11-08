@@ -1,10 +1,9 @@
-{%- style -%}
-{%- endstyle -%}
-
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="page-width isolate section-{{ section.id }}-padding">
     {% for collection in collections %}
-      {{- collection.title | link_to: collection.url }}
+      <a href="{{collection.url }}" class="button">
+        {{- collection.title }}
+      </a>
     {% endfor %}
   </div>
 </div>

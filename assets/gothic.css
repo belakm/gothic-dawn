@@ -1,0 +1,5 @@
+.button:hover,
+.button:active {
+  background-color: var(--color-base-accent-1);
+  color: var(--color-base-solid-button-labels);
+}
