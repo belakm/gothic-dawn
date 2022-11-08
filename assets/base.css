@@ -155,6 +155,16 @@
   --color-icon: rgb(var(--color-base-outline-button-labels));
 }
 
+.product-card-wrapper {
+  padding: 0.2em;
+  background-color: rgba(var(--color-background), 0.9);
+}
+
+.product-card-wrapper .card__information {
+  background-color: rgba(var(--color-background), 0.9);
+  padding: 1em;
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
