@@ -1219,7 +1219,6 @@ summary::-webkit-details-marker {
 /* component-media */
 .media {
   display: block;
-  background-color: rgba(var(--color-foreground), 0.1);
   position: relative;
   overflow: hidden;
 }
@@ -2797,48 +2796,6 @@ details-disclosure > details {
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
   color: rgb(var(--color-foreground));
   word-break: break-word;
-}
-
-.grid-background {
-  background-color: rgb(var(--color-base-background-1));
-  background-image: linear-gradient(
-      var(--color-base-background-2) 2px,
-      transparent 2px
-    ),
-    linear-gradient(90deg, var(--color-base-background-2) 2px, transparent 2px),
-    linear-gradient(
-      rgba(var(--color-base-background-2), 0.3) 1px,
-      transparent 1px
-    ),
-    linear-gradient(
-      90deg,
-      rgba(var(--color-base-background-2), 0.3) 1px,
-      transparent 1px
-    );
-  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-
-  background-image: linear-gradient(
-      rgb(var(--color-base-background-2)) 2px,
-      transparent 2px
-    ),
-    linear-gradient(
-      90deg,
-      rgb(var(--color-base-background-2)) 2px,
-      transparent 2px
-    ),
-    linear-gradient(
-      rgba(var(--color-base-background-2), 0.3) 1px,
-      transparent 1px
-    ),
-    linear-gradient(
-      90deg,
-      rgba(var(--color-base-background-2), 0.3) 1px,
-      1px,
-      transparent 1px
-    );
-  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 .gradient {

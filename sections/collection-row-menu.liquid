@@ -1,4 +1,16 @@
-<div class="color-{{ section.settings.color_scheme }} gradient">
+{%- style -%}
+.collection-row-menu {
+  padding: 3em 0 0;
+}
+.collection-row-menu .button {
+  font-weight: bold;
+}
+.collection-row-menu .button:not(:last-child) {
+  margin: 0 1em 1em 0;
+}
+{%- endstyle -%}
+
+<div class="background-transparent collection-row-menu">
   <div class="page-width isolate section-{{ section.id }}-padding">
     {% for collection in collections %}
       <a href="{{collection.url }}" class="button">
