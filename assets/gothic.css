@@ -5,7 +5,7 @@
 }
 
 .background-transparent {
-  background-color: rgba(var(--color-background), 0.72);
+  background-color: rgba(var(--color-background), 0.82);
 }
 
 .grid-background {
