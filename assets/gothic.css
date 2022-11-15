@@ -58,3 +58,11 @@
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
   background-attachment: fixed;
 }
+
+.main-content-wrapper {
+  padding-top: 3em;
+}
+
+.product-recommendations-margin-top {
+  margin-top: 3em;
+}
