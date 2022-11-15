@@ -1,3 +1,7 @@
+.color-gothic-grey {
+  background-color: var(--color-gothic-grey);
+}
+
 .button:hover,
 .button:active {
   background-color: var(--color-base-accent-1);
@@ -6,6 +10,10 @@
 
 .background-transparent {
   background-color: rgba(var(--color-background), 0.82);
+}
+
+.background-transparent-2 {
+  background-color: rgba(var(--color-background), 0.32);
 }
 
 .grid-background {

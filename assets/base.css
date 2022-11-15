@@ -157,7 +157,7 @@
 
 .product-card-wrapper {
   padding: 0.2em;
-  background-color: rgba(var(--color-background), 0.9);
+  background-color: rgba(var(--color-gothic-grey), 0.9);
 }
 
 .product-card-wrapper .card__information {

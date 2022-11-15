@@ -46,6 +46,7 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root {
+
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -58,6 +59,8 @@
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
 
+
+        --color-gothic-grey: #333;
         --color-base-text: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
         --color-shadow: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
         --color-base-background-1: {{ settings.colors_background_1.red }}, {{ settings.colors_background_1.green }}, {{ settings.colors_background_1.blue }};
@@ -248,7 +251,7 @@
 
     {% section 'announcement-bar' %}
     {% section 'header' %}
-    <main id="MainContent" class="content-for-layout focus-none {%- if template.name != 'index' %} background-transparent{%endif%}" role="main" tabindex="-1">
+    <main id="MainContent" class="content-for-layout focus-none {%- if template.name != 'index' %} background-transparent-2{%endif%}" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
 
