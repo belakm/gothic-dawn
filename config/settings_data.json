@@ -125,7 +125,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Hello RAFA from Revolut",
+              "text": "Hello RAFA from Revolut 👋",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
