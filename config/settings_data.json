@@ -124,8 +124,18 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Hello RAFA from Revolut 👋",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "2f2bd88b-c79c-4403-8720-9f4a2c111f78": {
+            "type": "announcement",
+            "settings": {
+              "text": "GOOD 2 C U !",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
@@ -133,7 +143,8 @@
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "2f2bd88b-c79c-4403-8720-9f4a2c111f78"
         ],
         "settings": {
         }
